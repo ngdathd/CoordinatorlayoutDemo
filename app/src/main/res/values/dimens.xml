@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="app_bar_height">235.0dip</dimen>
+    <dimen name="fab_margin">16.0dip</dimen>
+    <dimen name="text_margin">16.0dip</dimen>
+
+    <dimen name="margin_normal">12.0dip</dimen>
+    <dimen name="margin_normal_small">8.0dip</dimen>
+    <dimen name="icon_action_width">28.0dip</dimen>
+    <dimen name="icon_action_height">28.0dip</dimen>
+    <dimen name="header_bar_height">50.0dip</dimen>
+    <dimen name="margin_normal_2">10.0dip</dimen>
+
+    <dimen name="font_body">14.0sp</dimen>
+    <dimen name="font_title">18.0sp</dimen>
+</resources>

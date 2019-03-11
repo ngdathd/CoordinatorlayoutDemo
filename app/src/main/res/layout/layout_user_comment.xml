@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:visibility="visible">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/img_start1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        app:srcCompat="@drawable/ic_rate_empty_big" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/img_start2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_toEndOf="@id/img_start1"
+        android:layout_toRightOf="@id/img_start1"
+        app:srcCompat="@drawable/ic_rate_empty_big" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/img_start3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_toEndOf="@id/img_start2"
+        android:layout_toRightOf="@id/img_start2"
+        app:srcCompat="@drawable/ic_rate_empty_big" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/img_start4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_toEndOf="@id/img_start3"
+        android:layout_toRightOf="@id/img_start3"
+        app:srcCompat="@drawable/ic_rate_empty_big" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/img_start5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_toEndOf="@id/img_start4"
+        android:layout_toRightOf="@id/img_start4"
+        app:srcCompat="@drawable/ic_rate_empty_big" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_start1"
+        android:layout_alignStart="@id/img_start1"
+        android:layout_alignLeft="@id/img_start1"
+        android:layout_marginTop="4dp"
+        android:hint="@string/write_comment" />
+
+</RelativeLayout>

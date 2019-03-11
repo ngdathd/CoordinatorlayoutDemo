@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MISADEMO5FOOD</string>
+    <string name="restaurant_no_long_service">Nhà hàng đã lâu chưa cập nhật thông tin. Vui lòng liên hệ trước khi đến</string>
+    <string name="take_picture_restaurant">Đăng ảnh</string>
+    <string name="check_in">Check-in</string>
+    <string name="restaurant_preferential_saved_label_title">Lưu lại</string>
+    <string name="action_settings">Báo sai thông tin nhà hàng</string>
+    <string name="food_name">BIA NGON HÀ NỘI</string>
+    <string name="evaluate">100 đánh giá</string>
+    <string name="type_restaurant">Nhà hàng bia tươi</string>
+    <string name="status_open">Đang mở cửa</string>
+    <string name="time_open">07:00 AM - 22:30 PM</string>
+    <string name="price">60.000 VNĐ/người</string>
+    <string name="guide_customer">Viết đánh giá của bạn về nhà hàng</string>
+    <string name="address">32 ngõ 30 Tạ Quang Bửu, Phường Bách Khao, Quận Hai Bà Trưng, Hà Nội</string>
+    <string name="direction">Chỉ đường</string>
+    <string name="call">Gọi điện</string>
+    <string name="link_face">https://wwww.facebook.com/qwer</string>
+    <string name="wifi">Có wifi</string>
+    <string name="air_conditioning">Có điều hòa</string>
+    <string name="motor_free">Giữ xe máy miễn phí</string>
+    <string name="title_detail">Xem thêm thông tin</string>
+    <string name="content_detail">Chi tiết giờ mở cửa, tiện ích khác …</string>
+    <string name="pass_wifi">Mật khẩu Wifi</string>
+    <string name="add">Thêm</string>
+    <string name="write_comment">Viết đánh giá về nhà hàng …</string>
+    <string name="share">Share</string>
+</resources>

@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:tag="sticky">
+
+    <LinearLayout
+        android:id="@+id/ln_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/ln_take_photo"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_ripple_action"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_normal_small">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/icon_action_width"
+                android:layout_height="@dimen/icon_action_height"
+                app:srcCompat="@drawable/ic_take_picture_action" />
+
+            <TextView
+                style="@style/TvBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/take_picture_restaurant"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ln_check_in"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/bg_ripple_action"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_normal_small">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/icon_action_width"
+                android:layout_height="@dimen/icon_action_height"
+                app:srcCompat="@drawable/ic_check_in_action" />
+
+            <TextView
+                style="@style/TvBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/check_in"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ln_save"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/bg_ripple_action"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_normal_small">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/icon_action_width"
+                android:layout_height="@dimen/icon_action_height"
+                app:srcCompat="@drawable/ic_bookmark_action" />
+
+            <TextView
+                style="@style/TvBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/restaurant_preferential_saved_label_title"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorWhite30"
+        android:visibility="visible" />
+
+</LinearLayout>
